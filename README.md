@@ -136,7 +136,7 @@ To modify or extend the services:
 
 ## License
 
-[Your License Here]
+MIT License
 
 ## Acknowledgments
 
@@ -145,6 +145,4 @@ To modify or extend the services:
 - Google Text-to-Speech
 - Streamlit team
 
-## Contact
 
-[Your Contact Information] 
