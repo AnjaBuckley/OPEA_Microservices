@@ -1,6 +1,6 @@
 fastapi==0.115.7
 uvicorn==0.34.0
-transformers==4.38.2
+transformers>=4.48.0
 torch==2.2.1
 soundfile==0.12.1
 typing-extensions>=4.7.0
