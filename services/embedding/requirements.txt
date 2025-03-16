@@ -1,0 +1,6 @@
+fastapi==0.115.7
+uvicorn==0.34.0
+sentence-transformers==2.5.1
+torch==2.2.1
+typing-extensions>=4.7.0
+opea-comps==1.2 

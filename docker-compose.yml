@@ -1,0 +1,27 @@
+services:
+  llm-service:
+    build: ./services/llm
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_NAME=microsoft/marian-mt-en-de
+    volumes:
+      - ./models:/models
+
+  embedding-service:
+    build: ./services/embedding
+    ports:
+      - "6000:6000"
+    environment:
+      - MODEL_NAME=sentence-transformers/all-MiniLM-L6-v2
+    volumes:
+      - ./models:/models
+
+  tts-service:
+    build: ./services/tts
+    ports:
+      - "7002:7002"
+    environment:
+      - MODEL_NAME=microsoft/speecht5_tts
+    volumes:
+      - ./models:/models
