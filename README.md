@@ -33,7 +33,7 @@ The application consists of three microservices and a frontend:
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone <[repository-url](https://github.com/AnjaBuckley/OPEA_Microservices.git)>
    cd OPEA
    ```
 
